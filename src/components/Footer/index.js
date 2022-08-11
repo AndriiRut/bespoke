@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
 const Footer  = () => {
@@ -12,10 +13,10 @@ const Footer  = () => {
                 Subscribe to us on facebook <br /> and instagram to keep abreast <br /> of the latest news
               </p>
               <div>
-                <a href="https://www.facebook.com/" target="_blank" className="footer__social">
+                <a href="https://www.facebook.com/" target="_blank" className="footer__social" rel="noreferrer">
                   <i className="ri-facebook-box-fill"></i>
                 </a>
-                <a href="https://www.instagram.com/" target="_blank" className="footer__social">
+                <a href="https://www.instagram.com/" target="_blank" className="footer__social" rel="noreferrer">
                   <i className="ri-instagram-fill"></i>
                 </a>
                 {/* <a href="https://www.youtube.com/" target="_blank" className="footer__social">

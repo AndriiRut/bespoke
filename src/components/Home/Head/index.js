@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom'
 import Typewriter from 'typewriter-effect';
 
@@ -53,7 +53,7 @@ export default function Head({ hidePreload }) {
           <a
             href="https://www.facebook.com/Bespoke.home.textile"
             target="_blank"
-            className="home__social-link"
+            className="home__social-link" rel="noreferrer"
           >
             <i className="ri-facebook-box-fill"></i>
           </a>
@@ -61,7 +61,7 @@ export default function Head({ hidePreload }) {
           <a
             href="https://www.instagram.com/bespoke_home_textile"
             target="_blank"
-            className="home__social-link"
+            className="home__social-link" rel="noreferrer"
           >
             <i className="ri-instagram-fill"></i>
           </a>

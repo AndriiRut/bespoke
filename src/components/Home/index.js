@@ -2,9 +2,9 @@ import React from 'react';
 
 import Head from './Head';
 import About from './About';
-import Discover from './Discover';
+// import Discover from './Discover';
 import Gallery from './Gallery';
-import Subscribe from './Subscribe';
+// import Subscribe from './Subscribe';
 import Partners from './Partners';
 import PageTransition from '../PageTransition';
 
