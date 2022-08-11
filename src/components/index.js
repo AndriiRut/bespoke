@@ -113,9 +113,9 @@ const Main = () => {
                 )}
               />
               <Route path='/about/' component={About}/>
-              {/* <Route path='/discover/' component={Album}/> */}
+              <Route path='/discover/' component={Album}/>
               <Route path='/works/' component={Works}/>
-              {/* <Route path='/album/' component={Album}/> */}
+              <Route path='/album/' component={Album}/>
               <Route path='/contacts/' component={Contacts}/>
               <Route path="*" render={() => <Redirect to={{pathname: "/"}}/>} />
             </Switch>
